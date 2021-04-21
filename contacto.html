@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <title>PaginaPersonal</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/db-file-format-symbol.png" alt="logo">
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="biografia.html">Biografia</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 278.21,-25.16 505.64,96.20 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: rgb(2, 2, 2);"></path></svg></div>
+    </header>
+    <main>
+        <h1 class="title">Formulario de Contacto</h1>
+        <section class="wrapper">
+           <div class="formulario">
+            <form action="#">
+                 <label for="fname">Nombre:</label><br>
+                 <input type="text" id="fname" name="fname" class="form-field" placeholder="Introduce nombre" maxlength="15" required><br>
+             
+                 <label for="lname">Apellidos:</label><br>
+                 <input type="text" id="lname" name="lname" class="form-field" placeholder="Introduce apellidos" maxlength="15" required><br>
+             
+                 <label for="email">Email:</label><br>
+                 <input type="email" id="email" name="email" class="form-field" placeholder="ejemplo@email.com" required><br>
+     
+                 <label for="obs">Mensaje:</label><br>
+                 <textarea name="obs" id="obs" cols="30" rows="10" class="form-field" placeholder="Escribe aqui..."></textarea><br>
+     
+                 <input type="checkbox" id="priv" name="priv" required>
+                 <label for="priv">Acepto las condiciones de privacidad</label><br><br>
+     
+                 <input type="submit" value="Enviar" class="button"><br><br>
+     
+                 <input type="reset" value="Reset" class="button"><br><br>
+             </form>
+           </div>
+           <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251097.9246394008!2d-67.03045191310865!3d10.468698785130716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a58adcd824807%3A0x93dd2eae0a998483!2sCaracas%2C%20Distrito%20Capital%2C%20Venezuela!5e0!3m2!1ses!2ses!4v1618663461357!5m2!1ses!2ses" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br><br>
+           </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-basic">
+            <footer>
+                <div class="social"><a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a><a href="https://twitter.com/?lang=es"><i class="icon ion-social-twitter"></i></a><a href="https://es-es.facebook.com/"><i class="icon ion-social-facebook"></i></a></div>
+                <p class="copyright">DB © 2021</p>
+            </footer>
+        </div>
+    </footer>
+</body>
+</html>
